@@ -11,14 +11,20 @@
 	<groupId>com.uniconnect</groupId>
 	<artifactId>uniconnect-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
-	<url/>
+	<name>uniconnect-backend</name>
+	<description>Backend service for UniConnect university networking platform</description>
+	<url>https://github.com/ydv-prince/uniconnect</url>
 	<licenses>
-		<license/>
+		<license>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<name>Prince Kumar</name>
+			<email>pkumar052@rku.ac.in</email>
+		</developer>
 	</developers>
 	<scm>
 		<connection/>

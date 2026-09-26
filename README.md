@@ -400,7 +400,6 @@ Handled via `GlobalExceptionHandler`:
 ## 👨‍💻 Author & Acknowledgments
 
 - **Author**: [Prince Kumar](https://github.com/ydv-prince)
-- **Institution**: RK University (`rku.ac.in`)
 - **Repository**: [ydv-prince/uniconnect](https://github.com/ydv-prince/uniconnect)
 
 ---

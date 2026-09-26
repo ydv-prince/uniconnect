@@ -16,14 +16,6 @@
 
 </div>
 
-## 📌 Repository About Section
-
-> **GitHub Repository Description:**  
-> 🚀 High-performance, production-ready RESTful API backend for UniConnect — a modern university networking and student collaboration platform built with Spring Boot 3, Spring Security 6, JWT Authentication, and MySQL.
-
-**Recommended GitHub Repository Topics / Tags:**  
-`spring-boot` · `java-21` · `spring-security` · `jwt-authentication` · `mysql` · `rest-api` · `spring-data-jpa` · `hibernate` · `uniconnect` · `backend` · `maven` · `lombok`
-
 ---
 
 ## 📖 Table of Contents

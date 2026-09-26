@@ -280,7 +280,7 @@ Registers a new user, hashes the password via BCrypt, and persists the record.
   ```json
   {
     "name": "Prince Kumar",
-    "email": "pkumar052@rku.ac.in",
+    "email": "User@gmail.com",
     "password": "SecurePassword123!"
   }
   ```
@@ -293,7 +293,7 @@ Registers a new user, hashes the password via BCrypt, and persists the record.
     "data": {
       "id": 1,
       "name": "Prince Kumar",
-      "email": "pkumar052@rku.ac.in"
+      "email": "User@gmail.com"
     }
   }
   ```
@@ -302,7 +302,7 @@ Registers a new user, hashes the password via BCrypt, and persists the record.
   ```bash
   curl -X POST http://localhost:8083/api/users/register \
        -H "Content-Type: application/json" \
-       -d '{"name":"Prince Kumar","email":"pkumar052@rku.ac.in","password":"SecurePassword123!"}'
+       -d '{"name":"Prince Kumar","email":"User@gmail.com","password":"SecurePassword123!"}'
   ```
 
 ---
@@ -315,17 +315,8 @@ Verifies user credentials and returns a signed JWT token valid for 1 hour.
 - **Request Body:**
   ```json
   {
-    "email": "pkumar052@rku.ac.in",
+    "email": "User@gmail.com",
     "password": "SecurePassword123!"
-  }
-  ```
-
-- **Response (`200 OK`):**
-  ```json
-  {
-    "success": true,
-    "message": "Login successful",
-    "data": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwa3VtYXIwNTJAcmt1LmFjLmluIiwiaWF0IjoxNzE2OTk5OTk5LCJleHAiOjE3MTcwMDM1OTl9..."
   }
   ```
 
@@ -333,7 +324,7 @@ Verifies user credentials and returns a signed JWT token valid for 1 hour.
   ```bash
   curl -X POST http://localhost:8083/api/users/login \
        -H "Content-Type: application/json" \
-       -d '{"email":"pkumar052@rku.ac.in","password":"SecurePassword123!"}'
+       -d '{"email":"User@gmail.com","password":"SecurePassword123!"}'
   ```
 
 ---
